@@ -48,10 +48,10 @@ function playScene() {
     text("round: " + roundnum, 190, 30)
 
     rect(8, 10, 60, 30)
-    text("playerScore: " + playerScore, 35, 30)
+    text("YOU: " + playerScore, 35, 30)
 
     rect(330, 10, 60, 30)
-    text("oppentScore: " + oppentScore, 355, 30)
+    text("AI: " + oppentScore, 355, 30)
 	
   	// setup buttons
     button1.mousePressed(case1);
