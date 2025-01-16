@@ -59,9 +59,11 @@ function playScene() {
     button3.mousePressed(case3);
 
     textSize(20)
+	    
+	textAlign(CENTER, CENTER);
 
-    text("playerchoice: " + playerChoice, 200, 100)
-    text("computerChoice: " + computerChoice, 200, 125)
+    text("player choice: " + playerChoice, 200, 100)
+    text("computer Choice: " + computerChoice, 200, 125)
     text(state, 200, 150)
 
 
